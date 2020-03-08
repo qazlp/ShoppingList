@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+    <!-- General LinearLayout -->
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:text="@string/heading_shoping_list"
+                android:padding="@dimen/padding_more"/>
+
+            <TextView
+                android:id="@+id/item1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:padding="@dimen/padding_more"/>
+
+            <TextView
+                android:id="@+id/item2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:padding="@dimen/padding_more"/>
+
+            <TextView
+                android:id="@+id/item3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:padding="@dimen/padding_more"/>
+
+            <TextView
+                android:id="@+id/item4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:padding="@dimen/padding_more"/>
+
+            <TextView
+                android:id="@+id/item5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:padding="@dimen/padding_more"/>
+
+            <TextView
+                android:id="@+id/item6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:padding="@dimen/padding_more"/>
+
+            <TextView
+                android:id="@+id/item7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:padding="@dimen/padding_more"/>
+
+            <TextView
+                android:id="@+id/item8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:padding="@dimen/padding_more"/>
+
+            <TextView
+                android:id="@+id/item9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:padding="@dimen/padding_more"/>
+
+            <TextView
+                android:id="@+id/item10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:padding="@dimen/padding_more"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="createItem"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:layout_alignParentBottom="true"
+        android:text="@string/new_item"
+        />
+</RelativeLayout>
